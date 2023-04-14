@@ -1,0 +1,161 @@
+
+
+
+/* default Margin of body is set to zero */
+body{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.headder-section-1{
+    background-color: #E6956A;
+}
+
+.headder-section-2{
+    background-color: black; 
+    margin-bottom: 100px;
+    
+}
+
+.logo{
+    text-align: left;
+    gap: 256px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+
+
+.nav-menu{
+    width: 55%;
+    margin: auto;
+    gap: 50px
+    align: center;
+    list-style-type: none;
+    padding: 0px;
+   
+}
+
+/*Here, the element ul of class nav-menu is targeted and the flex properties is used  */
+.nav-menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+/* Here, The element li of class nav-menu is targeted */
+.nav-menu ul li{
+    list-style: none;
+    padding: 20px 0;
+    
+}
+
+/* Here, The element a of class nav-menu is targeted */
+.nav-menu a{
+    color:  rgb(223, 219, 219);
+    text-decoration: none;
+    font-size: 24px;
+}
+
+/* The :hover selector is used to select  element  a of nav-menu class. When you mouse over them,  the color and text decoration will change */
+.nav-menu a:hover{
+    text-decoration: underline;
+    color: #6ED668;
+}
+
+footer{
+    background-color: #E6956A;
+    color: rgb(209, 204, 204);
+    padding-top: 50px;
+}
+
+.footer-section{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.footer-section p{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.footer-section h3{
+   color: brown;
+}
+
+.footer-section a{
+    text-decoration: none;
+    color: rgb(209, 204, 204);
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.footer-section a:hover{
+    color: #6ED668;
+    text-decoration: underline;
+}
+
+
+#mail{
+    border: none;
+    width: 250px;
+    height: 25px;
+    background-color: #174C4F;
+    padding-left: 10px;
+}
+
+/* The :focus selector is used to select the focus of input element and outline is set to none */
+#mail:focus{
+    outline: none;
+    font-size: 15px;
+}
+
+/*The ::placeholder selector selects form elements with placeholder text, and the style of the placeholder text is changed. */
+::placeholder{
+    color: rgb(209, 204, 204);
+    font-size: 18px;
+}
+
+.footer-input-section button{
+    background-color: #174C4F;
+    border: none;
+}
+
+.social-media img{
+    width: 40px;
+}
+
+.social-media a{
+    margin:0 10px ;
+}
+
+.scroll-back {
+    position: fixed;
+    right: 10px;
+    bottom: 150px;
+}
+
+.scroll-back button {
+    background-color: #566388;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 20px;
+    display: none;
+    box-shadow: 0px 8px 16px 0px gray;
+
+}
+
+.scroll-back button:hover {
+    background-color: #228c4e;
+}

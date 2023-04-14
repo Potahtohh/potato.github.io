@@ -1,0 +1,436 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The Mobile Nation</title>
+    <link rel="icon" href="../Images/title.png" type="image/icon type">
+
+    <link rel="stylesheet" href="../CSS/index.css">
+
+    <style>
+        .blog-body-section {
+            width: 70%;
+            margin: auto;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+
+
+        .blog-head-img img {
+            margin: 20px 0;
+            width: 800px;
+        }
+
+        .section-1 {
+            box-shadow: 0 15px 25px rgba(0, 0, 50, 0.2);
+            margin-bottom: 30px;
+        }
+
+        .section-1 button {
+            /* background-color: #eee; */
+            background-color: white;
+
+            border: none;
+            width: 100%;
+            text-align: left;
+            cursor: pointer;
+            padding: 0 15px;
+
+        }
+
+        .section-1 button h3 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #174C4F;
+        }
+
+        /* .section-1 button:hover {
+            background-color: #ccc;
+        } */
+
+        #img2,
+        #img4,
+        #img6 {
+            display: none;
+        }
+
+        #content1,
+        #content2,
+        #content3 {
+            padding: 15px;
+            display: none;
+        }
+
+        ul {
+            line-height: 1.6;
+        }
+
+        li {
+            font-size: 18px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <!--Wrapper div for logo section-->
+    <div class="headder-section-1">
+
+        <div class="logo">
+
+            <!--Here, Inline css is used to set height of Logo-->
+            <a href="index.html"><img src="../Images/Logo.png" alt="The Mobile Nation" title="The Mobile Nation" style="height: 65px;"> </a>
+            <div style="align-content: center;"><h1><span style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"> The Mobile Nation</span></h1></div>
+            <div><a href="#"><img src="../Images/Ad.png" style=" height: 70px; width: 500px;"></a></div>
+
+        </div>
+    </div>
+
+    <!--Wrapper div for Navigation menu section-->
+    <div class="headder-section-2">
+
+        <div class="nav-menu">
+            <nav>
+
+                <ul class="nav">
+                    <!--Inline CSS is used to change the color of text of Home-->
+                    <li> <a href="Index.html"  title="Home">Home</a> </li>
+                    <li> <a href="Product.html" title="Products">Products</a> </li>
+                    <li> <a href="Research.html" title="Research">Research</a> </li>
+                    <li> <a href="blog.html" style="color: cyan;" title="Blog">Blog</a> </li>
+                    <li> <a href="Contact.html" title="Contact Us">Contact Us</a> </li>
+                </ul>
+
+            </nav>
+        </div>
+    </div>
+
+
+
+
+    <!-- wrapper div for body section of blog page -->
+    <div class="blog-body-section" style="margin-bottom: 60px;">
+
+        <!-- This div is the headding section of blog page -->
+        <div class="blog-heading">
+            <h1 style="color: #566388; font-size: 60px;">The World of Technology</h1>
+            <p style="color:rgb(148, 146, 146)">By <b style="color: black;">Ayush Krishna Shrestha
+            </b> <br> May 26, 2022</p>
+            <!-- <p style="color: rgb(148, 146, 146);">5 min read</p> -->
+
+            <!--<p>
+                “Technology is a useful servant but a dangerous master.”
+                - <strong>Christian Lous Lange, Historian</strong>
+            </p> -->
+        </div>
+
+        <!-- This div contains imgage -->
+        <div class="blog-head-img" style="text-align: center;">
+            <img src="../Images/technology.png" alt="Technology">
+        </div>
+
+
+        <!-- This div contains the introduction of blog -->
+        <div class="blog-introduction">
+
+            <p>
+                <strong>Technology</strong> is known as the application of scientific knowledge to
+                 the practical goals of human existence. It has helped humans advance in every sector and
+                every field all over the world. Technology is constantly changing and evolving every aspect
+                of our lives. We are living in the world of technology as almost everything is dependent
+                on technology. It covers every aspect of our lives. Without the advancement of technology,
+                the revolution of the world and the human race would have fallen behind than where it 
+                actually is currently. Everything from the food we eat to the clothes we wear is related
+                to technology in one way or the other. 
+            </p>
+
+            <p>
+                Technology has become an inseparable part of our daily lives. The world of technology,
+                as annoying as it can be at times, serves an important role in linking us to social 
+                support, news and information, government services, banking, health resources, shopping,
+                literature, entertainment, and learning tools. Despite the physical, economic, and
+                psychological drawbacks of using technology, there is a clear advantage for everyone
+                of us to actively investigate and use digital technologies.
+
+            </p>
+
+            <p>
+                Technology has not only changed the physical components of our lives, but also changed our
+                perceptions about the world through digital technology. The impact of social media all over 
+                the world is something no one could have imagined 30 years ago. Technology has its effect on 
+                people, especiallly the younger generations and children who are born into this world of
+                technology. There can be both good and bad effects of technology.
+            </p>
+        </div>
+
+        <!-- This div contains some images related to the technology -->
+        <div class="blog-images" style="margin: 50px 0;">
+            <img src="../Images/technology1.png" width="100%">
+            <img src="../Images/technology2.png" width="100%">
+        </div>
+
+        <!-- This div contains the negative, positive and future of technology -->
+        <div class="blog-body-explanation" style="margin-top: 40px;">
+
+            <h1><center>The Impact of Technology on Our Lives and The Future of Technology:</center></h1>
+
+            <div class="section-1">
+                <button id="btn1" onclick="accordation1()">
+                    <h3>
+                        Positive Impact of Technology on Society
+                        <img id="img1" src="../Images/down.png" width="20px">
+                        <img id="img2" src="../Images/up.png" width="20px">
+                    </h3>
+                </button>
+
+                <div id="content1">
+
+                    <p>
+                        Technology has improved every aspect of our lives in a drastic way. Although it has its
+                        drawbacks, the positive impact of technology on our lives cannot be left unnoticed at
+                        all. Here are some of the better impacts made by technology.
+                    </p>
+
+
+                    <ul>
+                        <li>Easier Access to Education</li>
+                        <li>Safer Money Management</li>
+                        <li>Improved and More Effective Advertising Options</li>
+                        <li>Higher Standards of Security for Organizations</li>
+                        <li>Simplified Everyday Life</li>
+                        <li>Easier Communication</li>
+                        <li>Better Medical Research</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="section-1">
+                <button id="btn2" onclick="accordation2()">
+                    <h3>
+                        Negative Impact of Technology on Society
+                        <img id="img3" src="../Images/down.png" width="20px">
+                        <img id="img4" src="../Images/up.png" width="20px">
+                    </h3>
+                </button>
+
+                <div id="content2">
+
+                    <p style="width: 100%;">
+                        Technology, like anything else, has both beneficial and harmful effects. Our lives have
+                        been made so much easier by the smartphone revolution, but it has also made us so sluggish.
+                        At the present, the entire world is at our fingertips, yet we don't even want to get out
+                        of bed. Our sedentary lifestyle and lack of physical exercises demonstrate our reliance
+                        on smartphones. The younger generation, in particular, appears to be addicted to their
+                        phones. Cell phone addiction has a severe influence on our lives in the present day.
+                    </p>
+
+                    <p style="width: 100%;">
+                        Similary, the field of Artificial Intelligence and Robotics is also developing at a
+                        rapid pace. In the 21st century, AI is the next step of development in technology. 
+                        Tech giants like Google and Tesla are constantly working in the advancement of 
+                        technology through Artificial Inelligence. Although the idea of AI seems cool at the 
+                        first glance, it also has its own set of drawbacks. Implementation of Artificial 
+                        Intelligence and Robotics in our daily lives is expected to cause massive amount of 
+                        unemployment as the need of human resources in each field will grow less and less 
+                        gradually as almost everything a man can do, AI could be able to do better. Although
+                        the development of AI has not had that level of progress, we can still expect it to 
+                        alter our lives in the near future.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="section-1">
+                <button id="btn3" onclick="accordation3()">
+                    <h3>
+                        Future of Technology on Society
+                        <img id="img5" src="../Images/down.png" width="20px">
+                        <img id="img6" src="../Images/up.png" width="20px"> 
+                    </h3>
+                </button>
+
+                <div id="content3">
+
+                    <p style="width: 100%;">
+                        New technologies are being developed every second of every day in the world. The 
+                        advancement of technology is something that cannot be avoided. Despite concerns 
+                        about unemployment, over-dependency, and a sedentary lifestyle, effective use of
+                        technology can lead to a very bright future. Some examples of the ways technology 
+                        can affect our future are given below.
+                    </p>
+
+                    <ul>
+                        <li>Clean Energy</li>
+                        <li>Virtual Reality</li>
+                        <li>Education for all</li>
+                        <li>Electric/self-driving cars</li>
+                        <li>Robots in the workplace</li>
+                        <li>Hyper-fast trains</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- This div contains conclusion of the blog -->
+        <div class="blog-conclucion">
+            <p>
+                Like everything, technlology also has two sides to it. There cannot be good without the bad. 
+                On the one hand, it aided us in making significant progress. It led us to the furthest reaches
+                of space and the deepest reaches of the ocean, and it aided us in the construction of huge 
+                cities and efficient transportation systems. On the other hand, it enabled the development
+                of nuclear and hydrogen bombs, as well as increased pollution and the emergence of new 
+                terrible illnesses. There is little doubt that technology will continue to dominate our
+                lives.  Future technology will undoubtedly impact our lives in extraordinary ways. 
+                It is obvious that excellent, regulated technology delivers positive outcomes, whereas bad,
+                uncontrolled technology produces disastrous ones.
+            </p>
+        </div>
+
+
+    </div>
+
+
+    <!-- This is wrapper section for footer-->
+    <!-- This section is divided into 2 section -->
+    <footer>
+
+        <div class="footer-section">
+
+            <div class="footer-section-3">             
+                            
+
+                <!-- This div is for social media links-->
+                <div class="social-media">
+                    <h3>Connect with us</h3>
+
+                    <a href="https://www.facebook.com/" target="_blank"><img src="../Images/Icons/facebook.png"
+                        alt="facebook" title="facebook"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="../Images/Icons/instagram.png"
+                        style="width: 45px;" alt="instagram" title="instagram"></a>
+                    <a href="https://twitter.com/" target="_blank"><img src="../Images/Icons/twitter.png"
+                        alt="twitter" title="twitter"></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img src="../Images/Icons/youtube.png"
+                         alt="Youtube" title="Youtube"></a>
+                </div>
+
+                
+
+            </div>
+
+
+            <div class="footer-section-1">
+                <h3>About <br> The Mobile Nation</h3>
+
+                <p>
+                    The Mobile Nation is a mobile phone store <br> situated in Kathmandu, Nepal that sells top <br>
+                    quality mobile phones at reasonable prices. <br>You can browse and find different mobile phones <br>
+                    with different kinds of sales and discounts.
+                </p>
+
+                <p>
+                    Kathmandu, Nepal <br>
+                    <a href="mailto:mobilenation@gmail.com">mobilenation@gmail.com</a> <br>
+                    <a href="tel:01-5972878">01-5972878</a>
+                </p>
+            </div>
+
+            
+
+           
+                <div class="footer-section-2">
+                    <h3>Quick Links</h3>
+                    <a href="Index.html">Home</a> <br>
+                    <a href="Product.html">Products</a> <br>
+                    <a href="Research.html">Research</a> <br>
+                    <a href="blog.html">Blog</a> <br>
+                    <a href="Contact.html">Contact Us</a> <br>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div style="text-align: center; color:white; font-size: 20px; font-weight: bold; padding: 30px 0 15px 0;">
+            Copyright © 2022, The Mobile Nation. All rights reserved.
+        </div>
+
+    </footer>
+
+
+    <script src="../JS/script.js"></script>
+
+    <script>
+        function accordation1() {
+            var content = document.getElementById("content1");
+
+            if (content.style.display == "none") {
+                content.style.display = "block";
+                document.getElementById("btn1").style.borderBottom = "1px solid  #174C4F";
+                document.getElementById("img1").style.display = "none";
+                document.getElementById("img2").style.display = "block";
+            }
+            else {
+                content.style.display = "none";
+                document.getElementById("btn1").style.borderBottom = "none";
+                document.getElementById("img1").style.display = "block";
+                document.getElementById("img2").style.display = "none";
+            }
+        }
+
+        function accordation2() {
+            var content = document.getElementById("content2");
+
+            if (content.style.display == "none") {
+                content.style.display = "block";
+                document.getElementById("btn2").style.borderBottom = "1px solid  #174C4F";
+                document.getElementById("img3").style.display = "none";
+                document.getElementById("img4").style.display = "block";
+            }
+            else {
+                content.style.display = "none";
+                document.getElementById("btn2").style.borderBottom = "none";
+                document.getElementById("img3").style.display = "block";
+                document.getElementById("img4").style.display = "none";
+            }
+        }
+
+        function accordation3() {
+            var content = document.getElementById("content3");
+
+            if (content.style.display == "none") {
+                content.style.display = "block";
+                document.getElementById("btn3").style.borderBottom = "1px solid  #174C4F";
+                document.getElementById("img5").style.display = "none";
+                document.getElementById("img6").style.display = "block";
+            }
+            else {
+                content.style.display = "none";
+                document.getElementById("btn3").style.borderBottom = "none";
+                document.getElementById("img5").style.display = "block";
+                document.getElementById("img6").style.display = "none";
+            }
+        }
+
+    </script>
+
+
+</body>
+
+</html>
